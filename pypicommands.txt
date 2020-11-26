@@ -1,0 +1,15 @@
+
+Create 
+1. file with functions
+2. setup file
+3. init file
+4 init file and file with functions in one folder with same name as file with functions
+5. MIT license
+
+
+python setup.py sdist bdist_wheel
+
+python -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
+
+Enter username
+Enter Password
